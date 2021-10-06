@@ -18,8 +18,13 @@ class GeneratedLogin_Text_EMailWidget extends StatelessWidget {
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(5.429718971252441),
-        child: Container(
-          color: Color.fromARGB(255, 251, 251, 251),
+        child: TextField(
+
+          decoration: InputDecoration(
+            border: OutlineInputBorder(),
+            color: Color.fromARGB(255, 251, 251, 251),
+          ),
+
         ),
       ),
     );
