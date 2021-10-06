@@ -20,7 +20,6 @@ class GeneratedLogin_Text_EMailWidget extends StatelessWidget {
         borderRadius: BorderRadius.circular(5.429718971252441),
         child: TextField(
            decoration: InputDecoration(
-            border: OutlineInputBorder(),
             filled: true,
             fillColor: Colors.white,
           ),
