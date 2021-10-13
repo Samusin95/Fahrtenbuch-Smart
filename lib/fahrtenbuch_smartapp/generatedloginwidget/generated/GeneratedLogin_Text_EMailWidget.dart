@@ -21,9 +21,8 @@ class GeneratedLogin_Text_EMailWidget extends StatelessWidget {
         child: TextField(
            decoration: InputDecoration(
             filled: true,
-            fillColor: Colors.white,
+            fillColor: Color.fromARGB(255, 251, 251, 251),
           ),
-
         ),
       ),
     );

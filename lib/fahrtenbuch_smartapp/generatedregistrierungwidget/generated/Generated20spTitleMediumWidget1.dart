@@ -15,15 +15,15 @@ class Generated20spTitleMediumWidget1 extends StatelessWidget {
           alignment: Alignment.center,
           overflow: Overflow.visible,
           children: [
-            Positioned(
+            /*Positioned(
               left: 0.0,
               top: 0.0,
               right: null,
               bottom: null,
               width: 258.0,
               height: 26.0,
-              child: GeneratedLabel_SpeichernbuttonWidget1(),
-            )
+              //child: GeneratedLabel_SpeichernbuttonWidget1(),
+            )*/
           ]),
     );
   }

@@ -6,11 +6,15 @@ import 'package:flutterapp/helpers/svg/svg.dart';
   */
 class GeneratedRegistrierung_Text_PLZWidget1 extends StatelessWidget {
   @override
+
+  TextEditingController plz = new TextEditingController(text: "2345");
+
   Widget build(BuildContext context) {
     return Container(
       width: 82.2244873046875,
       height: 26.0,
-      child: TextField(
+      child: TextFormField(
+        controller: plz,
         decoration: InputDecoration(
           filled: true,
           fillColor: Color.fromARGB(255, 251, 251, 251),

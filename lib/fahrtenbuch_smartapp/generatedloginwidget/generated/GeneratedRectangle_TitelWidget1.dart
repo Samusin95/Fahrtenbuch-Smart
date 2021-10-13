@@ -8,7 +8,7 @@ class GeneratedRectangle_TitelWidget1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 225.0,
-      height: 225.0,
+      height: 800.0,
       child: ClipRRect(
         borderRadius: BorderRadius.zero,
         child: Container(

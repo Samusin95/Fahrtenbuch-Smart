@@ -5,6 +5,9 @@ import 'package:flutter/material.dart';
   */
 class GeneratedRegistrierung_Text_EMailWidget extends StatelessWidget {
   @override
+
+  TextEditingController email = new TextEditingController();
+
   Widget build(BuildContext context) {
     return Container(
       width: 328.0,
@@ -17,6 +20,7 @@ class GeneratedRegistrierung_Text_EMailWidget extends StatelessWidget {
         ),
       ),
       child: TextField(
+        controller: email,
         decoration: InputDecoration(
           filled: true,
           fillColor: Color.fromARGB(255, 251, 251, 251),
