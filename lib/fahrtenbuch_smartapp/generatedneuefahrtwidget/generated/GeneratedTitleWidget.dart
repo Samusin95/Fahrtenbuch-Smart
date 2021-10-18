@@ -11,6 +11,12 @@ class GeneratedTitleWidget extends StatefulWidget {
 }
 
 class _GeneratedTitleWidgetState extends State<GeneratedTitleWidget> {
+  String myTest;
+  void onMyTestChange(String newValue){
+    setState(() {
+      myTest = newValue;
+    });
+  }
   @override
 
   //GeneratedFahrt_Text_StandEndeWidget myStandEnde = new GeneratedFahrt_Text_StandEndeWidget();
@@ -30,11 +36,11 @@ class _GeneratedTitleWidgetState extends State<GeneratedTitleWidget> {
               if(buttonText == 'Fahrt starten') {
                 buttonText = 'Fahrt stoppen';
               } else {
-                buttonText = 'Fahrt starten';
                 DateTime formatedDate = now.subtract(Duration(hours: now.hour, minutes: now.minute));
                 //DateTime date = new DateTime(now.hour, now.minute);
                 String test = "test";
                 myStandEnde.myStandEndeText.text = test.toString();
+                buttonText = 'Fahrt starten';
               }
               });
             },

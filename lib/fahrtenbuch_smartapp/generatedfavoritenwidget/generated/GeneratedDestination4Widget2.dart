@@ -19,9 +19,8 @@ class GeneratedDestination4Widget2 extends StatelessWidget {
           ),
         ),
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 0.0,

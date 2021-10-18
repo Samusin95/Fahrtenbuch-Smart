@@ -13,9 +13,8 @@ class GeneratedDestination1Widget2 extends StatelessWidget {
         width: 90.0,
         height: 64.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               ClipRRect(
                 borderRadius: BorderRadius.zero,
