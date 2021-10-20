@@ -13,7 +13,7 @@ class GeneratedLabel_FahrtWidget1 extends StatelessWidget {
           style: TextStyle(
             height: 1.3333333333333333,
             fontSize: 13.673684120178223,
-            fontFamily: 'Red Hat Text',
+            fontFamily: 'Roboto',
             fontWeight: FontWeight.w500,
             color: Color.fromARGB(255, 0, 0, 0),
 
@@ -21,7 +21,7 @@ class GeneratedLabel_FahrtWidget1 extends StatelessWidget {
           ),
           children: [
             TextSpan(
-              text: '''Neue''',
+              text: '''Neue Fahrt''',
               style: TextStyle(
                 fontFamily: 'Roboto',
                 fontWeight: FontWeight.w500,

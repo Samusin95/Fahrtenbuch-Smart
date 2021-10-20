@@ -28,7 +28,7 @@ class _GeneratedFahrt_Text_StandEndeWidgetState extends State<GeneratedFahrt_Tex
       ),
       child: TextField(
         controller: myStandEndeText,
-        myStandEndeText.text = gTW.
+        //myStandEndeText.text = gTW.
         decoration: InputDecoration(
           filled: true,
           fillColor: Color.fromARGB(255, 251, 251, 251),

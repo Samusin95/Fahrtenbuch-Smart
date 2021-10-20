@@ -22,7 +22,7 @@ class GeneratedLabel_TitelWidget2 extends StatelessWidget {
           children: [
             TextSpan(
               text: '''Fahrtenbuch
-''',
+SMART''',
               style: TextStyle(
                 fontFamily: 'Roboto',
                 fontWeight: FontWeight.w400,

@@ -20,7 +20,7 @@ class _GeneratedTitleWidgetState extends State<GeneratedTitleWidget> {
   @override
 
   //GeneratedFahrt_Text_StandEndeWidget myStandEnde = new GeneratedFahrt_Text_StandEndeWidget();
-  _GeneratedTitleWidgetState myStandEnde = new _GeneratedTitleWidgetState();
+ // _GeneratedTitleWidgetState myStandEnde = new _GeneratedTitleWidgetState();
 
   String buttonText = '''Fahrt starten''';
   DateTime now = new DateTime.now();
@@ -39,7 +39,7 @@ class _GeneratedTitleWidgetState extends State<GeneratedTitleWidget> {
                 DateTime formatedDate = now.subtract(Duration(hours: now.hour, minutes: now.minute));
                 //DateTime date = new DateTime(now.hour, now.minute);
                 String test = "test";
-                myStandEnde.myStandEndeText.text = test.toString();
+                //myStandEnde.myStandEndeText.text = test.toString();
                 buttonText = 'Fahrt starten';
               }
               });

@@ -13,6 +13,9 @@ import 'package:flutterapp/fahrtenbuch_smartapp/generatedhistorywidget1/Generate
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedstatistikwidget1/GeneratedStatistikWidget1.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget1/GeneratedNeueFahrtWidget1.dart';
 
+/// {@category Main}
+///
+///{@end-category}
 void main() {
   runApp(Fahrtenbuch_SmartApp());
 }
