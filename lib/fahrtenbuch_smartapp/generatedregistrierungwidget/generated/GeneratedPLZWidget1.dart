@@ -23,7 +23,7 @@ class GeneratedPLZWidget1 extends StatelessWidget {
               bottom: null,
               width: 82.2244873046875,
               height: 26.0,
-              child: GeneratedRegistrierung_Text_PLZWidget1(),
+              child: GeneratedRegistrierung_Text_PLZWidget1(key: key),
             ),
             Positioned(
               left: 0.0,
