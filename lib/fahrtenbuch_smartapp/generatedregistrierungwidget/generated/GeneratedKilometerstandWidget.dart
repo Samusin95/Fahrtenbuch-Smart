@@ -32,7 +32,7 @@ class GeneratedKilometerstandWidget extends StatelessWidget {
               bottom: null,
               width: 124.0,
               height: 26.0,
-              child: GeneratedRegistrierung_Text_KilometerstandWidget(),
+              child: GeneratedRegistrierung_Text_KilometerstandWidget(key: key),
             )
           ]),
     );

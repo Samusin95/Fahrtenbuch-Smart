@@ -14,7 +14,7 @@ class GeneratedRegistrierung_Text_PrivatPLZWidget extends StatefulWidget {
 }
 
 class _GeneratedRegistrierung_Text_PrivatPLZWidgetState extends State<GeneratedRegistrierung_Text_PrivatPLZWidget> {
-  final TextEditingController privatplz = new TextEditingController(text: "1111");
+  final TextEditingController privatplz = new TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Container(

@@ -32,7 +32,7 @@ class GeneratedFirmenanschriftWidget extends StatelessWidget {
               bottom: null,
               width: 332.0,
               height: 26.0,
-              child: GeneratedRegistrierung_Text_FirmenanschriftWidget(),
+              child: GeneratedRegistrierung_Text_FirmenanschriftWidget(key: key),
             )
           ]),
     );

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedRegistrierung_Text_PLZWidget.dart';
+import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedRegistrierung_Text_KennzeichenWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedCaptionWidget9.dart';
 
 /* Frame PLZ
@@ -23,7 +23,7 @@ class GeneratedPLZWidget extends StatelessWidget {
               bottom: null,
               width: 176.0,
               height: 26.0,
-              child: GeneratedRegistrierung_Text_PLZWidget(),
+              child: GeneratedRegistrierung_Text_KennzeichenWidget(key: key),
             ),
             Positioned(
               left: 0.0,
