@@ -23,7 +23,7 @@ class GeneratedNachnameWidget extends StatelessWidget {
               bottom: null,
               width: 162.0,
               height: 26.0,
-              child: GeneratedRegistrierung_Text_NachnameWidget(),
+              child: GeneratedRegistrierung_Text_NachnameWidget(key:key),
             ),
             Positioned(
               left: 0.0,

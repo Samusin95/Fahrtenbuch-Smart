@@ -23,7 +23,7 @@ class GeneratedPasswort2Widget extends StatelessWidget {
               bottom: null,
               width: 161.0,
               height: 26.0,
-              child: GeneratedRegistrierung_Text_Passwort2Widget(),
+              child: GeneratedRegistrierung_Text_Passwort2Widget(key:key),
             ),
             Positioned(
               left: 0.0,

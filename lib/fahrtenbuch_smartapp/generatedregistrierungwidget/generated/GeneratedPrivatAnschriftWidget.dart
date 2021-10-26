@@ -32,7 +32,7 @@ class GeneratedPrivatAnschriftWidget extends StatelessWidget {
               bottom: null,
               width: 330.0,
               height: 26.0,
-              child: GeneratedRegistrierung_Text_PrivatAnschriftWidget(),
+              child: GeneratedRegistrierung_Text_PrivatAnschriftWidget(key:key),
             )
           ]),
     );
