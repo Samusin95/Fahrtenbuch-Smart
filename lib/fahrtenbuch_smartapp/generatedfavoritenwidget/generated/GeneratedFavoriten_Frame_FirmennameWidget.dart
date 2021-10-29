@@ -34,7 +34,7 @@ class GeneratedFavoriten_Frame_FirmennameWidget extends StatelessWidget {
                 bottom: null,
                 width: 210.0,
                 height: 25.0,
-                child: GeneratedFavoriten_Text_FirmennameWidget(),
+                child: GeneratedFavoriten_Text_FirmennameWidget(key: key),
               )
             ]),
       ),

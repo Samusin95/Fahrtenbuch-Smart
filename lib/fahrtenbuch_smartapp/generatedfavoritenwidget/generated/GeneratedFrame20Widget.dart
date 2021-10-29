@@ -14,9 +14,8 @@ class GeneratedFrame20Widget extends StatelessWidget {
         width: 204.0,
         height: 40.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 14.0,
@@ -34,7 +33,7 @@ class GeneratedFrame20Widget extends StatelessWidget {
                 bottom: null,
                 width: 150.0,
                 height: 24.761903762817383,
-                child: GeneratedFavoriten_Text_OrtWidget(),
+                child: GeneratedFavoriten_Text_OrtWidget(key: key),
               )
             ]),
       ),

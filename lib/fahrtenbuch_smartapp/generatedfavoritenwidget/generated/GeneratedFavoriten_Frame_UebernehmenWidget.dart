@@ -14,9 +14,8 @@ class GeneratedFavoriten_Frame_UebernehmenWidget extends StatelessWidget {
         width: 25.0,
         height: 25.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 0.0,
