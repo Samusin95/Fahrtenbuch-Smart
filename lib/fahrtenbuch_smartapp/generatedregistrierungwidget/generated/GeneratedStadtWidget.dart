@@ -17,7 +17,7 @@ class GeneratedStadtWidget extends StatelessWidget {
           overflow: Overflow.visible,
           children: [
             Positioned(
-              left: 1.0,
+              left: 0.0,
               top: 24.0,
               right: null,
               bottom: null,

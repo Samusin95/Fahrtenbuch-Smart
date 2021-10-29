@@ -22,6 +22,13 @@ class _GeneratedRegistrierung_Text_KennzeichenWidgetState extends State<Generate
     return Container(
       width: 176.0,
       height: 26.0,
+        decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(5.429718971252441),
+        border: Border.all(
+        width: 0.6787148714065552,
+        color: Color.fromARGB(255, 214, 228, 236),
+          ),
+        ),
       child: TextField(
         controller: kennz,
         decoration: InputDecoration(

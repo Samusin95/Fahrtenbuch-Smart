@@ -12,29 +12,28 @@ class GeneratedStartseiteWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
         child: ClipRRect(
-      borderRadius: BorderRadius.zero,
-      child: Container(
-        width: 360.0,
-        height: 640.0,
-        child: Stack(
-            fit: StackFit.expand,
-            alignment: Alignment.center,
-            overflow: Overflow.visible,
-            children: [
-              ClipRRect(
-                borderRadius: BorderRadius.zero,
-                child: Container(
-                  color: Color.fromARGB(255, 58, 159, 165),
-                ),
-              ),
-              Positioned(
-                left: 71.0,
-                top: 88.0,
-                right: null,
-                bottom: null,
-                width: 225.0,
-                height: 225.0,
-                child: GeneratedRectangle_TitelWidget(),
+          borderRadius: BorderRadius.zero,
+            child: Container(
+              width: 360.0,
+              height: 640.0,
+                child: Stack(
+                  clipBehavior: Clip.none, fit: StackFit.expand,
+                  alignment: Alignment.center,
+                  children: [
+                       ClipRRect(
+                            borderRadius: BorderRadius.zero,
+                         child: Container(
+                             color: Color.fromARGB(255, 58, 159, 165),
+                              ),
+                            ),
+                        Positioned(
+                          left: 71.0,
+                          top: 88.0,
+                          right: null,
+                          bottom: null,
+                          width: 225.0,
+                          height: 225.0,
+                                       child: GeneratedRectangle_TitelWidget(),
               ),
               Positioned(
                 left: 68.0,

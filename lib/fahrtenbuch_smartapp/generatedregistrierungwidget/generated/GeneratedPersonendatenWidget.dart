@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedPrivatPLZWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedVornameWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedNachnameWidget.dart';
-import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedPrivatAnschriftWidget.dart';
+import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedPrivatStrasseWidget.dart';
+import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedPrivatHausnrWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedPrivatStadtWidget.dart';
 
 /* Frame Personendaten
@@ -17,9 +18,8 @@ class GeneratedPersonendatenWidget extends StatelessWidget {
         width: 333.0,
         height: 184.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 0.0,
@@ -41,12 +41,21 @@ class GeneratedPersonendatenWidget extends StatelessWidget {
               ),
               Positioned(
                 left: 0.0,
-                top: 56.0,
+                top: 60.0,
                 right: null,
                 bottom: null,
-                width: 333.0,
-                height: 53.0,
-                child: GeneratedPrivatAnschriftWidget(),
+                width: 242.0,
+                height: 56.0,
+                child: GeneratedPrivatStrasseWidget(),
+              ),
+              Positioned(
+                left: 252.0,
+                top: 57.0,
+                right: null,
+                bottom: null,
+                width: 237.0,
+                height: 56.0,
+                child: GeneratedPrivatHausnrWidget(),
               ),
               Positioned(
                 left: 0.0,

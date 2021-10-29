@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedPLZWidget1.dart';
-import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedFirmenanschriftWidget.dart';
+import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedFirmenStrasseWidget.dart';
+import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedFirmenHausnrWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedStadtWidget.dart';
 
 /* Frame Firmendaten
@@ -13,22 +14,29 @@ class GeneratedFirmendatenWidget extends StatelessWidget {
       borderRadius: BorderRadius.zero,
       child: Container(
         width: 333.0,
-        height: 113.0,
+        height: 184.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 0.0,
                 top: 0.0,
                 right: null,
                 bottom: null,
-                width: 335.0181884765625,
+                width: 242.0,
                 height: 56.0,
-                child: GeneratedFirmenanschriftWidget(),
+                child: GeneratedFirmenStrasseWidget(),
               ),
               Positioned(
+                left: 252.0,
+                top: 0.0,
+                right: null,
+                bottom: null,
+                width: 237.0,
+                height: 56.0,
+                child: GeneratedFirmenHausnrWidget(),
+              ),Positioned(
                 left: 95.0,
                 top: 57.0,
                 right: null,

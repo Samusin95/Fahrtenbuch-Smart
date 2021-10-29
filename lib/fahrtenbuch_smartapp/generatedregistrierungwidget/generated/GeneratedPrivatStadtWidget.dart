@@ -12,9 +12,8 @@ class GeneratedPrivatStadtWidget extends StatelessWidget {
       width: 237.0,
       height: 56.0,
       child: Stack(
-          fit: StackFit.expand,
+          clipBehavior: Clip.none, fit: StackFit.expand,
           alignment: Alignment.center,
-          overflow: Overflow.visible,
           children: [
             Positioned(
               left: 1.0,

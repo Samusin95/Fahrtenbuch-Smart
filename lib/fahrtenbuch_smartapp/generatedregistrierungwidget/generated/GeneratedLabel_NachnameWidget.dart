@@ -11,7 +11,7 @@ class GeneratedLabel_NachnameWidget extends StatelessWidget {
       overflow: TextOverflow.visible,
       textAlign: TextAlign.left,
       style: TextStyle(
-        height: 1.2890625,
+        height: 1.3,
         fontSize: 12.0,
         fontFamily: 'Roboto',
         fontWeight: FontWeight.w400,

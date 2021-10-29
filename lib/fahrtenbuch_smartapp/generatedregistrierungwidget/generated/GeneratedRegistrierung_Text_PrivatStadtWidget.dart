@@ -19,6 +19,13 @@ class _GeneratedRegistrierung_Text_PrivatStadtWidgetState extends State<Generate
     return Container(
       width: 233.0,
       height: 26.0,
+        decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(5.429718971252441),
+        border: Border.all(
+        width: 0.6787148714065552,
+        color: Color.fromARGB(255, 214, 228, 236),
+          ),
+        ),
       child: TextField(
         controller: pstadt,
         decoration: InputDecoration(

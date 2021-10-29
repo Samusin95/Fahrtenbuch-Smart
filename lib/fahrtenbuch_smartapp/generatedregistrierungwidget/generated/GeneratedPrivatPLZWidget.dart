@@ -12,12 +12,11 @@ class GeneratedPrivatPLZWidget extends StatelessWidget {
       width: 68.0,
       height: 56.0,
       child: Stack(
-          fit: StackFit.expand,
+          clipBehavior: Clip.none, fit: StackFit.expand,
           alignment: Alignment.center,
-          overflow: Overflow.visible,
           children: [
             Positioned(
-              left: 1.2755126953125,
+              left: 1.3,
               top: 24.0,
               right: null,
               bottom: null,

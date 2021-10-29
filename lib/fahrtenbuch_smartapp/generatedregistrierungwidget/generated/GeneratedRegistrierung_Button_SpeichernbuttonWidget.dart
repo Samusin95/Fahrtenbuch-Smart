@@ -1,20 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedRegistrierung_Text_FirmenHausnrWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedRegistrierung_Text_KilometerstandWidget.dart';
+import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedRegistrierung_Text_PrivatHausnrWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedRegistrierung_Text_PrivatStadtWidget.dart';
 import 'package:http/http.dart' as http;
 import 'dart:async';
 import 'dart:convert';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedregistrierungwidget/generated/GeneratedRegistrierung_Text_EMailWidget.dart';
 
-import 'GeneratedRegistrierung_Text_FirmenanschriftWidget.dart';
+import 'GeneratedRegistrierung_Text_FirmenStrasseWidget.dart';
+import 'GeneratedRegistrierung_Text_FirmenHausnrWidget.dart';
 import 'GeneratedRegistrierung_Text_KennzeichenWidget.dart';
 import 'GeneratedRegistrierung_Text_NachnameWidget.dart';
 import 'GeneratedRegistrierung_Text_PLZWidget1.dart';
 import 'GeneratedRegistrierung_Text_Passwort2Widget.dart';
 import 'GeneratedRegistrierung_Text_PasswortWidget.dart';
-import 'GeneratedRegistrierung_Text_PrivatAnschriftWidget.dart';
 import 'GeneratedRegistrierung_Text_PrivatPLZWidget.dart';
 import 'GeneratedRegistrierung_Text_ModellWidget.dart';
+import 'GeneratedRegistrierung_Text_PrivatStrasseWidget.dart';
+import 'GeneratedRegistrierung_Text_PrivatHausnrWidget.dart';
 import 'GeneratedRegistrierung_Text_StadtWidget.dart';
 import 'GeneratedRegistrierung_Text_VornameWidget.dart';
 
@@ -74,9 +78,11 @@ Future<List> senddata() async {
     "vorname": vornamekey.currentState.vorname.text,
     "nachname": nachnamekey.currentState.nachname.text,
     "pstrasse": pstrassekey.currentState.pstrasse.text,
+    "phausnr": phausnrkey.currentState.phausnr.text,
     "privatplz": pplzkey.currentState.privatplz.text,
     "pstadt": pstadtkey.currentState.pstadt.text,
     "fstrasse": fstrassekey.currentState.fstrasse.text,
+    "fhausnr": fhausnrkey.currentState.fhausnr.text,
     "plz": key.currentState.plz.text, //"6789"//"Testemail;"//myEmail.email.text,
     "fstadt": fstadtkey.currentState.fstadt.text,
     "modellFahrzeug": modelkey.currentState.modellFahrzeug.text,

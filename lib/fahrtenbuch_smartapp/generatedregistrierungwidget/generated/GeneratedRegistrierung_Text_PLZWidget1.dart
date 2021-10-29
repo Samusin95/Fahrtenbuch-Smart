@@ -22,6 +22,13 @@ class _GeneratedRegistrierung_Text_PLZWidget1State extends State<GeneratedRegist
     return Container(
       width: 82.2244873046875,
       height: 26.0,
+        decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(5.429718971252441),
+        border: Border.all(
+        width: 0.6787148714065552,
+        color: Color.fromARGB(255, 214, 228, 236),
+          ),
+        ),
       child: TextFormField(
         controller: plz,
         enabled: true,
