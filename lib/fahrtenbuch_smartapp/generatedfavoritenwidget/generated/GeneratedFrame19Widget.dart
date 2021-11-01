@@ -13,9 +13,8 @@ class GeneratedFrame19Widget extends StatelessWidget {
         width: 136.0,
         height: 42.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 14.0,

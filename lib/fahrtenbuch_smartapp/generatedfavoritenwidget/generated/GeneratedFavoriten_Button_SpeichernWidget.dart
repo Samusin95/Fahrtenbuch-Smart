@@ -2,10 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedfavoritenwidget/generated/GeneratedFavoriten_Text_PLZWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedfavoritenwidget/generated/GeneratedFavoriten_Text_StraeWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedfavoritenwidget/generated/GeneratedVector387Widget.dart';
-import 'package:http/http.dart' as http;
-
-import 'GeneratedFavoriten_Text_FirmennameWidget.dart';
-import 'GeneratedFavoriten_Text_OrtWidget.dart';
 
 
 /* Component Favoriten_Button_Speichern
@@ -14,42 +10,29 @@ import 'GeneratedFavoriten_Text_OrtWidget.dart';
 class GeneratedFavoriten_Button_SpeichernWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ClipRRect(
-      borderRadius: BorderRadius.zero,
-      child: Container(
-        width: 24.0,
-        height: 24.0,
-        child: Stack(
-            fit: StackFit.expand,
-            alignment: Alignment.center,
-            overflow: Overflow.visible,
-            children: [
-              Positioned(
-                left: 4.0,
-                top: 5.0,
-                right: null,
-                bottom: null,
-                width: 16.0,
-                height: 15.0,
-                child: GeneratedVector387Widget(),
-              )
-            ]),
-      ),
-    );
-  }
-}
-Future<List> senddata() async {
-  final response = await http.post(Uri.parse("http://192.168.100.11/testsmart/insertdata.php"), body: {
-    "ffirmenname": ffirmennamekey.currentState.ffirmenname.text,
-    "favstr": fstrkey.currentState.favstr.text,
-    //"favnr":
-    "fplz": fplzkey.currentState.favplz.text,
-    "fort": fortkey.currentState.fort.text,
 
-  });
-  if(response.statusCode == 200){
-    debugPrint("Data posted successfully");
-  }else{
-    debugPrint("Something went wrong! Status Code is: ${response.statusCode}");
-  };
-}
+      return ClipRRect(
+        borderRadius: BorderRadius.zero,
+        child:  new Container(
+          width: 24.0,
+          height: 24.0,
+          child: Stack(
+              clipBehavior: Clip.none, fit: StackFit.expand,
+              alignment: Alignment.center,
+              children: [
+                (
+                    Positioned(
+                      left: 4.0,
+                      top: 5.0,
+                      right: null,
+                      bottom: null,
+                      width: 16.0,
+                      height: 15.0,
+                      child: GeneratedVector387Widget(),
+                    ))
+                  ]),
+            ));
+      }
+  }
+
+

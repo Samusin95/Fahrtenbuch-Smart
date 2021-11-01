@@ -15,9 +15,8 @@ class GeneratedGroup359Widget extends StatelessWidget {
       width: 12.833335876464844,
       height: 16.499998092651367,
       child: Stack(
-          fit: StackFit.expand,
+          clipBehavior: Clip.none, fit: StackFit.expand,
           alignment: Alignment.center,
-          overflow: Overflow.visible,
           children: [
             Positioned(
               left: 0.9166755676269531,
