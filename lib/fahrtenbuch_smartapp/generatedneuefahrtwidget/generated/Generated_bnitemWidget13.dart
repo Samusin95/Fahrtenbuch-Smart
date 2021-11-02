@@ -12,9 +12,8 @@ class Generated_bnitemWidget13 extends StatelessWidget {
       width: 89.55262756347656,
       height: 63.810523986816406,
       child: Stack(
-          fit: StackFit.expand,
+          clipBehavior: Clip.none, fit: StackFit.expand,
           alignment: Alignment.center,
-          overflow: Overflow.visible,
           children: [
             Positioned(
               left: 4.557894706726074,

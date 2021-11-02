@@ -14,9 +14,8 @@ class GeneratedAnkunftWidget extends StatelessWidget {
         width: 345.0,
         height: 40.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 13.0,

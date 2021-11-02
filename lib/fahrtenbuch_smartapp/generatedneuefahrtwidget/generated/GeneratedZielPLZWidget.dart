@@ -25,7 +25,7 @@ class GeneratedZielPLZWidget extends StatelessWidget {
                 bottom: null,
                 width: 73.0,
                 height: 25.0,
-                child: GeneratedFahrt_Text_ZielPLZWidget(),
+                child: GeneratedFahrt_Text_ZielPLZWidget(key: key),
               ),
               Positioned(
                 left: 13.0,

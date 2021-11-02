@@ -14,9 +14,8 @@ class GeneratedFirmennameStartWidget extends StatelessWidget {
         width: 345.0,
         height: 43.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 14.0,
@@ -34,7 +33,7 @@ class GeneratedFirmennameStartWidget extends StatelessWidget {
                 bottom: null,
                 width: 243.0,
                 height: 26.0,
-                child: GeneratedFahrt_Text_FirmennameStartWidget(),
+                child: GeneratedFahrt_Text_FirmennameStartWidget(key: key),
               )
             ]),
       ),

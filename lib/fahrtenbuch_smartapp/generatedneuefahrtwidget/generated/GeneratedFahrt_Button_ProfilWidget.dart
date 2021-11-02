@@ -15,9 +15,8 @@ class GeneratedFahrt_Button_ProfilWidget extends StatelessWidget {
         width: 50.0,
         height: 50.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 0.0,
