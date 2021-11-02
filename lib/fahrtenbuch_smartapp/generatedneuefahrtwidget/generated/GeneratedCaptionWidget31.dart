@@ -19,7 +19,7 @@ class GeneratedCaptionWidget31 extends StatelessWidget {
               top: 0.0,
               right: null,
               bottom: null,
-              width: 96.0,
+              width: 90.0,
               height: 21.0,
               child: GeneratedLabel_GeschftlichWidget(),
             )

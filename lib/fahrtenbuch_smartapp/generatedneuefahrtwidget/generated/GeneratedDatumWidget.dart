@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFahrt_Text_DatumWidget.dart';
+import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFahrt_Button_DatumWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedLabel_DatumWidget.dart';
 
 /* Frame Datum
@@ -33,7 +33,7 @@ class GeneratedDatumWidget extends StatelessWidget {
                 bottom: null,
                 width: 93.66886901855469,
                 height: 25.0,
-                child: GeneratedFahrt_Text_DatumWidget(),
+                child: GeneratedFahrt_Button_DatumWidget(),
               )
             ]),
       ),
