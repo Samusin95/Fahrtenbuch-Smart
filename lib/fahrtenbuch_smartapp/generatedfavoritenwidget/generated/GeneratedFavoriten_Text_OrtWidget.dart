@@ -26,6 +26,7 @@ class _GeneratedFavoriten_Text_OrtWidgetState extends State<GeneratedFavoriten_T
         ),
       ),
       child: TextField(
+        controller: fort,
         decoration: InputDecoration(
           filled: true,
           fillColor: Color.fromARGB(255, 251, 251, 251),

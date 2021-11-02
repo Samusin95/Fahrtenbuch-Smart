@@ -38,7 +38,7 @@ class GeneratedBGprimaryWidget4 extends StatelessWidget {
 
 
 Future<List> senddata() async {
-  final response = await http.post(Uri.parse("http://192.168.100.11/testsmart/insertdataFavoriten.php"), body: {
+  final response = await http.post(Uri.parse("http://192.168.7.1/testsmart/insertdataFavoriten.php"), body: {
     "ffirmenname": ffirmennamekey.currentState.ffirmenname.text,
     "favstr": fstrkey.currentState.favstr.text,
     "favnr": favhausnrkey.currentState.favhausnr.text,
