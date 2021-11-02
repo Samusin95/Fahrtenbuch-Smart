@@ -14,17 +14,16 @@ class GeneratedPrivatWidget extends StatelessWidget {
         width: 52.0,
         height: 26.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 1.0,
                 top: 7.0,
                 right: null,
                 bottom: null,
-                width: 8.88888931274414,
-                height: 8.88888931274414,
+                width: 8.8,
+                height: 8.8,
                 child: GeneratedFahrt_Radio_PrivatWidget(),
               ),
               Positioned(

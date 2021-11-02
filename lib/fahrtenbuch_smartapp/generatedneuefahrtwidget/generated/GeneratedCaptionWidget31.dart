@@ -11,9 +11,8 @@ class GeneratedCaptionWidget31 extends StatelessWidget {
       width: 91.0,
       height: 16.0,
       child: Stack(
-          fit: StackFit.expand,
+          clipBehavior: Clip.none, fit: StackFit.expand,
           alignment: Alignment.center,
-          overflow: Overflow.visible,
           children: [
             Positioned(
               left: 12.111083984375,

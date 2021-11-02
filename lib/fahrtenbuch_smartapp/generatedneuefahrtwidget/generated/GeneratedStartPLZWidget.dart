@@ -14,9 +14,8 @@ class GeneratedStartPLZWidget extends StatelessWidget {
         width: 169.0,
         height: 42.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 99.0,
@@ -25,7 +24,7 @@ class GeneratedStartPLZWidget extends StatelessWidget {
                 bottom: null,
                 width: 70.0,
                 height: 25.0,
-                child: GeneratedFahrt_Text_StartPLZWidget(),
+                child: GeneratedFahrt_Text_StartPLZWidget(key: key),
               ),
               Positioned(
                 left: 11.0,

@@ -34,7 +34,7 @@ class GeneratedStartOrtWidget extends StatelessWidget {
                 bottom: null,
                 width: 136.0,
                 height: 25.0,
-                child: GeneratedFahrt_Text_StartOrtWidget(),
+                child: GeneratedFahrt_Text_StartOrtWidget(key: key),
               )
             ]),
       ),

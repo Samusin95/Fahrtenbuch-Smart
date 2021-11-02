@@ -34,7 +34,7 @@ class GeneratedZweckWidget extends StatelessWidget {
                 bottom: null,
                 width: 244.0,
                 height: 73.5,
-                child: GeneratedFahrt_Text_ZweckWidget(),
+                child: GeneratedFahrt_Text_ZweckWidget(key: key),
               )
             ]),
       ),

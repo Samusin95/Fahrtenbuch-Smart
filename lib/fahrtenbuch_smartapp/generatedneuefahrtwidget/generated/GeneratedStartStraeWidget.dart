@@ -14,12 +14,11 @@ class GeneratedStartStraeWidget extends StatelessWidget {
         width: 345.0,
         height: 43.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
-                left: 12.0,
+                left: 13.0,
                 top: 8.0,
                 right: null,
                 bottom: null,
@@ -28,13 +27,13 @@ class GeneratedStartStraeWidget extends StatelessWidget {
                 child: GeneratedLabel_StartStraeWidget(),
               ),
               Positioned(
-                left: 100.0,
+                left: 102.0,
                 top: 8.0,
                 right: null,
                 bottom: null,
-                width: 243.0,
+                width: 136.0,
                 height: 26.0,
-                child: GeneratedFahrt_Text_StartStraeWidget(),
+                child: GeneratedFahrt_Text_StartStraeWidget(key: key),
               )
             ]),
       ),
