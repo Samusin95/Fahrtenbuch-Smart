@@ -34,7 +34,7 @@ class GeneratedStandEndeWidget extends StatelessWidget {
                 bottom: null,
                 width: 98.66667175292969,
                 height: 26.0,
-                child: GeneratedFahrt_Text_StandEndeWidget(),
+                child: GeneratedFahrt_Text_StandEndeWidget(key: key),
               )
             ]),
       ),

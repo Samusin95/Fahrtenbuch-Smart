@@ -33,7 +33,7 @@ class GeneratedDatumWidget extends StatelessWidget {
                 bottom: null,
                 width: 95,
                 height: 25.0,
-                child: GeneratedFahrt_Button_DatumWidget(),
+                child: GeneratedFahrt_Button_DatumWidget(key: key),
               )
             ]),
       ),

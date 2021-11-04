@@ -35,7 +35,7 @@ class GeneratedAnkunftWidget extends StatelessWidget {
                 bottom: null,
                 width: 95.0,
                 height: 25.0,
-                child: GeneratedFahrt_Button_AnkunftWidget(),
+                child: GeneratedFahrt_Button_AnkunftWidget(key: key),
               )
             ]),
       ),

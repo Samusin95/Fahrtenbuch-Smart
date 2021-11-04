@@ -33,7 +33,7 @@ class GeneratedAbfahrtWidget extends StatelessWidget {
                 bottom: null,
                 width: 95.0,
                 height: 26.0,
-                child: GeneratedFahrt_Button_AbfahrtWidget(),
+                child: GeneratedFahrt_Button_AbfahrtWidget(key: key),
               )
             ]),
       ),
