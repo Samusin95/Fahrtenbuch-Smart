@@ -15,6 +15,7 @@ class _GeneratedFahrt_Button_AbfahrtWidgetState
     extends State<GeneratedFahrt_Button_AbfahrtWidget> {
   @override
   String buttonText = '''SET''';
+  DateTime dtAbfahrt;
 
   Widget build(BuildContext context) {
     return Opacity(
@@ -42,6 +43,7 @@ class _GeneratedFahrt_Button_AbfahrtWidgetState
                         String formatierteUhrzeit =
                         "${uhrzeitAbfahrt.hour.toString().padLeft(2, '0')}:${uhrzeitAbfahrt.minute.toString().padLeft(2, '0')}";
                         buttonText = formatierteUhrzeit;
+                        dtAbfahrt = uhrzeitAbfahrt;
                         } else {}
                         });
                         },

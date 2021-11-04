@@ -15,6 +15,7 @@ class _GeneratedFahrt_Button_DatumWidgetState
     extends State<GeneratedFahrt_Button_DatumWidget> {
   @override
   String buttonText = '''SET''';
+  DateTime dtDatum;
   Widget build(BuildContext context) {
     return Opacity(
         opacity: 0.3999999463558197,
@@ -45,6 +46,7 @@ class _GeneratedFahrt_Button_DatumWidgetState
                       //DateFormat.format(DateTime.now());
                       //DateFormat.yMd(myLocale.languageCode).format(aktuellesDatum);
                       buttonText = formatiertesDatum;
+                      dtDatum = aktuellesDatum;
                     } else {}
                   });
                 },

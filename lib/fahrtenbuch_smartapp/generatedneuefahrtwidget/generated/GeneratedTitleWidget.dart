@@ -96,9 +96,9 @@ Future<List> senddata() async {
     "fahrtZweck": fahrtZweckkey.currentState.fahrtZweck.text,
     "standBeginn": standBeginnkey.currentState.standBeginn.text,
     "standEnde": standEndekey.currentState.standEnde.text,
-    "datum": datumkey.currentState.buttonText,
-    "zeitAbfahrt": zeitAbfahrtkey.currentState.buttonText,
-    "zeitAnkunft": zeitAnkunftkey.currentState.buttonText,
+    "datum": (datumkey.currentState.dtDatum).toString(),
+    "zeitAbfahrt": (zeitAbfahrtkey.currentState.dtAbfahrt).toString(),
+    "zeitAnkunft": (zeitAnkunftkey.currentState.dtAnkunft).toString(),
   });
   if(response.statusCode == 200){
     debugPrint("Data posted successfully");
