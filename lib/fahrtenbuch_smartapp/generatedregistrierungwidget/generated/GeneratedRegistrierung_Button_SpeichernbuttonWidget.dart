@@ -68,7 +68,7 @@ GeneratedRegistrierung_Text_EMailWidget myEmail = new GeneratedRegistrierung_Tex
 GeneratedRegistrierung_Text_PLZWidget1 myPlz = new GeneratedRegistrierung_Text_PLZWidget1();
 
 Future<List> senddata() async {
-  final response = await http.post(Uri.parse("http://192.168.100.11/testsmart/insertdata.php"), body: {
+  final response = await http.post(Uri.parse("http://10.0.63.15/testsmart/insertdata.php"), body: {  //IP Home: 192.168.100.11
     "email": mailkey.currentState.email.text,
     "passwort": passwortkey.currentState.passwort.text,
     "passwort2": passwort2key.currentState.passwort2.text,

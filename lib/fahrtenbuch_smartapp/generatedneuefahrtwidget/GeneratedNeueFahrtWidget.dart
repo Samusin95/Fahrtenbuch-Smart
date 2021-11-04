@@ -253,15 +253,15 @@ class GeneratedNeueFahrtWidget extends StatelessWidget {
                 child: GeneratedIconicRightAccentWidget3(),
               ),
               Positioned(
-                left: 253.0,
-                top: 76.0,
+                left: 203.0,
+                top: 75.0,
                 right: null,
                 bottom: null,
-                width: 97.0,
-                height: 26.0,
+                width: 155.0,
+                height: 52.0,
                 child: GeneratedGeschftlichWidget(),
               ),
-              Positioned(
+              /*Positioned(
                 left: 203.0,
                 top: 77.0,
                 right: null,
@@ -269,7 +269,7 @@ class GeneratedNeueFahrtWidget extends StatelessWidget {
                 width: 52.0,
                 height: 26.0,
                 child: GeneratedPrivatWidget(),
-              ),
+              ),*/
               Positioned(
                 left: 15.0,
                 top: 240.0,

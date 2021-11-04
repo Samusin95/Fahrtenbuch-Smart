@@ -11,7 +11,7 @@ class GeneratedDatumWidget extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.zero,
       child: Container(
-        width: 345.0,
+        width: 120.0,
         height: 43.0,
         child: Stack(
             clipBehavior: Clip.none, fit: StackFit.expand,
@@ -31,7 +31,7 @@ class GeneratedDatumWidget extends StatelessWidget {
                 top: 9.0,
                 right: null,
                 bottom: null,
-                width: 93.66886901855469,
+                width: 95,
                 height: 25.0,
                 child: GeneratedFahrt_Button_DatumWidget(),
               )
