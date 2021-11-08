@@ -28,7 +28,7 @@ class GeneratedTextDefaultWidget3 extends StatelessWidget {
                 bottom: null,
                 width: 328.0,
                 height: 31.999998092651367,
-                child: GeneratedLogin_Text_PasswortWidget(),
+                child: GeneratedLogin_Text_PasswortWidget(key: key),
               ),
               Positioned(
                 left: 14.253012657165527,

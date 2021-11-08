@@ -28,7 +28,7 @@ class GeneratedTextDefaultWidget2 extends StatelessWidget {
                 bottom: null,
                 width: 328.0,
                 height: 31.999998092651367,
-                child: GeneratedLogin_Text_EMailWidget(),
+                child: GeneratedLogin_Text_EMailWidget(key: key),
               ),
               Positioned(
                 left: 14.253012657165527,

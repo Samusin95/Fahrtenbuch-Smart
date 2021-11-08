@@ -68,7 +68,7 @@ GeneratedRegistrierung_Text_EMailWidget myEmail = new GeneratedRegistrierung_Tex
 GeneratedRegistrierung_Text_PLZWidget1 myPlz = new GeneratedRegistrierung_Text_PLZWidget1();
 
 Future<List> senddata() async {
-  final response = await http.post(Uri.parse("http://10.0.63.15/testsmart/insertdata.php"), body: {  //IP Home: 192.168.100.11
+  final response = await http.post(Uri.parse("http://10.0.231.11/testsmart/insertdata.php"), body: {  //IP Home: 192.168.100.11
     "email": mailkey.currentState.email.text,
     "passwort": passwortkey.currentState.passwort.text,
     "passwort2": passwort2key.currentState.passwort2.text,
@@ -80,7 +80,7 @@ Future<List> senddata() async {
     "pstadt": pstadtkey.currentState.pstadt.text,
     "fstrasse": fstrassekey.currentState.fstrasse.text,
     "fhausnr": fhausnrkey.currentState.fhausnr.text,
-    "plz": key.currentState.plz.text, //"6789"//"Testemail;"//myEmail.email.text,
+    "plz": key.currentState.plz.text,
     "fstadt": fstadtkey.currentState.fstadt.text,
     "modellFahrzeug": modelkey.currentState.modellFahrzeug.text,
     "kennz": kennzkey.currentState.kennz.text,
