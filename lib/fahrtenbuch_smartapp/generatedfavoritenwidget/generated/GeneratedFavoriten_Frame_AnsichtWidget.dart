@@ -25,9 +25,8 @@ class GeneratedFavoriten_Frame_AnsichtWidget extends StatelessWidget {
         width: 347.0,
         height: 123.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 320.0,

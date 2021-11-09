@@ -12,11 +12,10 @@ class GeneratedZweckWidget extends StatelessWidget {
       borderRadius: BorderRadius.zero,
       child: Container(
         width: 351.0,
-        height: 84.0,
+        height: 55.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 14.0,
@@ -33,7 +32,7 @@ class GeneratedZweckWidget extends StatelessWidget {
                 right: null,
                 bottom: null,
                 width: 244.0,
-                height: 73.5,
+                height: 55.0,
                 child: GeneratedFahrt_Text_ZweckWidget(key: key),
               )
             ]),

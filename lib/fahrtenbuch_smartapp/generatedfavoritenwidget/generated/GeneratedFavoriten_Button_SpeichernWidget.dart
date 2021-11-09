@@ -19,6 +19,7 @@ class GeneratedFavoriten_Button_SpeichernWidget extends StatelessWidget {
           child: Stack(
               clipBehavior: Clip.none, fit: StackFit.expand,
               alignment: Alignment.center,
+
               children: [
                 (
                     Positioned(

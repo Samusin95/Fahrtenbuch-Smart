@@ -16,7 +16,7 @@ class Generated20spTitleMediumWidget3 extends StatelessWidget {
           children: [
             Positioned(
               left: 0.0,
-              top: 0.0,
+              top: -10.0,
               right: null,
               bottom: null,
               width: 258.0,

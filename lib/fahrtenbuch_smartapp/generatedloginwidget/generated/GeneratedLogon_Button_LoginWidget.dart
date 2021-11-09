@@ -3,7 +3,6 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedloginwidget/generated/GeneratedLabel_LoginWidget1.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedloginwidget/generated/GeneratedIconFillcheckmarkWidget2.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedloginwidget/generated/GeneratedIconFillcloseWidget2.dart';
-import 'package:fluttertoastalert/FlutterToastAlert.dart';
 
 import 'package:http/http.dart' as http;
 import 'dart:async';

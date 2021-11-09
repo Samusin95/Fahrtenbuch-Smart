@@ -3,7 +3,7 @@ import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generat
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFahrt_Button_AnkunftWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFahrt_Button_DatumWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFahrt_Text_StartHausnrWidget.dart';
-import 'package:fluttertoastalert/FlutterToastAlert.dart';
+
 import 'package:http/http.dart' as http;
 import 'dart:async';
 
@@ -51,7 +51,6 @@ class _GeneratedTitleWidgetState extends State<GeneratedTitleWidget> {
               if(buttonText == 'Fahrt starten') {
                 senddata();
                 buttonText = 'Fahrt stoppen';
-                FlutterToastAlert.showToastAndAlert(type: Type.Success,iosTitle: "Wow",iosSubtitle: "It Works",androidToast: "It Works",toastDuration: 3,toastShowIcon: true);
               } else {
                 DateTime formatedDate = now.subtract(Duration(hours: now.hour, minutes: now.minute));
                 //DateTime date = new DateTime(now.hour, now.minute);

@@ -14,6 +14,10 @@ import 'GeneratedFavoriten_Text_PLZWidget.dart';
 class GeneratedBGprimaryWidget4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final ButtonStyle style = ElevatedButton.styleFrom(
+        primary: Color.fromARGB(255, 255, 255, 255),
+        //padding: EdgeInsets.symmetric(horizontal:  )
+        );
 
     return Container(
       width: 25.0,
@@ -29,7 +33,8 @@ class GeneratedBGprimaryWidget4 extends StatelessWidget {
         borderRadius: BorderRadius.circular(6.0),
         child: Container(
           color: Color.fromARGB(255, 255, 255, 255),
-          child: TextButton(onPressed: () {senddata();},)
+          child: ElevatedButton(onPressed: () {senddata();},
+            style: style,)
         ),
       ),
     );

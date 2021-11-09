@@ -7,7 +7,7 @@ class GeneratedLabel_GeschftlichWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      '''Geschäftlich''',
+      '''Privat''',
       overflow: TextOverflow.visible,
       textAlign: TextAlign.left,
       style: TextStyle(
