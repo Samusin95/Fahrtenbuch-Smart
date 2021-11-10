@@ -72,6 +72,8 @@ class _GeneratedRegistrierung_Button_SpeichernbuttonWidgetState extends State<Ge
   }
 }
 
+/// Die senddate() Funktion wird benutzt um Werte aus Textfeldern Schlüsselwörter zuzuordnen und der PHP Datei zu übergeben.
+/// Über die Funktion post können Werte übergeben werden.
 Future<List> senddata() async {
   final response = await http.post(Uri.parse("http://192.168.1.101/testsmart/insertdata.php"), body: {  //IP Home: 192.168.100.11
     "email": mailkey.currentState.email.text,

@@ -104,6 +104,7 @@ class GeneratedLogon_Button_LoginWidget extends StatelessWidget {
     saveDatatoken();
   }
 
+  /// Erzeugt aus der eingetragenen E-Mail Adresse einen Token um über ihn festzustellen wer gerade angemeldet ist.
   Future<void> saveDatatoken() async {
     await FlutterSession().set("token", emailkey.currentState.email.text);
   }

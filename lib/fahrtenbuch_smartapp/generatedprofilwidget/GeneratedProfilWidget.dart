@@ -120,6 +120,9 @@ class _GeneratedProfilWidgetState extends State<GeneratedProfilWidget> {
     getDataProfil();
   }
 
+  /// Holt sich aus der PHP Datei ein Array heraus und fügt sie in eine Liste ein.
+  /// Die Inhalte werden über das Schlüsselwort herausgesucht und den Felder zugeordnet.
+  /// Es wird der Token dem E-Mail Feld zugeordnet.
   Future getDataProfil() async{
     dynamic token = await FlutterSession().get("token");
     emailprofilkey.currentState.emailprofil.text = token;
