@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
   */
 class GeneratedVerlauf_Ausgabe_StardadresseWidget extends StatelessWidget {
   @override
+  final TextEditingController verlaufstartadresse= new TextEditingController(text: "Brandstätter-Straße 43");
   Widget build(BuildContext context) {
     return Container(
       width: 239.0,
@@ -20,6 +21,13 @@ class GeneratedVerlauf_Ausgabe_StardadresseWidget extends StatelessWidget {
         borderRadius: BorderRadius.circular(5.429718971252441),
         child: Container(
           color: Color.fromARGB(255, 251, 251, 251),
+          child: TextField(
+            controller: verlaufstartadresse,
+            decoration: InputDecoration(
+              filled: true,
+              fillColor: Color.fromARGB(255, 251, 251, 251),
+            ),
+          ),
         ),
       ),
     );

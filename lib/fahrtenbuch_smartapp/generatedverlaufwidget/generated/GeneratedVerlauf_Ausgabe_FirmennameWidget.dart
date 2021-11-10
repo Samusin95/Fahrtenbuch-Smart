@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
   */
 class GeneratedVerlauf_Ausgabe_FirmennameWidget extends StatelessWidget {
   @override
+  final TextEditingController verlauffirmenname = new TextEditingController(text: "Chenox AG");
   Widget build(BuildContext context) {
     return Container(
       width: 239.0,
@@ -20,6 +21,13 @@ class GeneratedVerlauf_Ausgabe_FirmennameWidget extends StatelessWidget {
         borderRadius: BorderRadius.circular(5.429718971252441),
         child: Container(
           color: Color.fromARGB(255, 251, 251, 251),
+          child: TextField(
+            controller: verlauffirmenname,
+            decoration: InputDecoration(
+              filled: true,
+              fillColor: Color.fromARGB(255, 251, 251, 251),
+            ),
+          ),
         ),
       ),
     );

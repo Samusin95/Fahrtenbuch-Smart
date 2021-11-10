@@ -6,25 +6,31 @@ import 'package:flutterapp/helpers/svg/svg.dart';
   */
 class GeneratedVerlauf_Ausgabe_UhrzeitWidget extends StatelessWidget {
   @override
+  final TextEditingController verlaufuhrzeit= new TextEditingController(text: "14:34");
   Widget build(BuildContext context) {
     return Container(
       width: 76.0,
       height: 25.0,
-      child: SvgWidget(painters: [
-        SvgPathPainter.fill()
-          ..addPath(
-              'M0 5.42972C0 2.43097 2.43097 0 5.42972 0L70.5703 0C73.569 0 76 2.43097 76 5.42972L76 19.5703C76 22.569 73.569 25 70.5703 25L5.42972 25C2.43097 25 0 22.569 0 19.5703L0 5.42972Z')
-          ..color = Color.fromARGB(255, 251, 251, 251),
-        SvgPathPainter.stroke(
-          0.6787148714065552,
-          strokeJoin: StrokeJoin.miter,
-        )
-          ..addPath(
-              'M5.42972 0.678715L70.5703 0.678715L70.5703 -0.678715L5.42972 -0.678715L5.42972 0.678715ZM75.3213 5.42972L75.3213 19.5703L76.6787 19.5703L76.6787 5.42972L75.3213 5.42972ZM70.5703 24.3213L5.42972 24.3213L5.42972 25.6787L70.5703 25.6787L70.5703 24.3213ZM0.678715 19.5703L0.678715 5.42972L-0.678715 5.42972L-0.678715 19.5703L0.678715 19.5703ZM5.42972 24.3213C2.80581 24.3213 0.678715 22.1942 0.678715 19.5703L-0.678715 19.5703C-0.678715 22.9439 2.05612 25.6787 5.42972 25.6787L5.42972 24.3213ZM75.3213 19.5703C75.3213 22.1942 73.1942 24.3213 70.5703 24.3213L70.5703 25.6787C73.9439 25.6787 76.6787 22.9439 76.6787 19.5703L75.3213 19.5703ZM70.5703 0.678715C73.1942 0.678715 75.3213 2.80581 75.3213 5.42972L76.6787 5.42972C76.6787 2.05612 73.9439 -0.678715 70.5703 -0.678715L70.5703 0.678715ZM5.42972 -0.678715C2.05612 -0.678715 -0.678715 2.05612 -0.678715 5.42972L0.678715 5.42972C0.678715 2.80581 2.80581 0.678715 5.42972 0.678715L5.42972 -0.678715Z')
-          ..color = Color.fromARGB(255, 214, 228, 236)
-          ..addClipPath(
-              'M0 5.42972C0 2.43097 2.43097 0 5.42972 0L70.5703 0C73.569 0 76 2.43097 76 5.42972L76 19.5703C76 22.569 73.569 25 70.5703 25L5.42972 25C2.43097 25 0 22.569 0 19.5703L0 5.42972Z'),
-      ]),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(5.429718971252441),
+        border: Border.all(
+          width: 0.6787148714065552,
+          color: Color.fromARGB(255, 214, 228, 236),
+        ),
+      ),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(5.429718971252441),
+        child: Container(
+          color: Color.fromARGB(255, 251, 251, 251),
+          child: TextField(
+            controller: verlaufuhrzeit,
+            decoration: InputDecoration(
+              filled: true,
+              fillColor: Color.fromARGB(255, 251, 251, 251),
+            ),
+          ),
+        ),
+      ),
     );
   }
 }

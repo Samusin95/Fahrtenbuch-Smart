@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
   */
 class GeneratedVerlauf_Ausgabe_GrundWidget extends StatelessWidget {
   @override
+  final TextEditingController verlaufgrund = new TextEditingController(text: "Präsentation beim Kunden");
   Widget build(BuildContext context) {
     return Container(
       width: 239.0,
@@ -20,6 +21,13 @@ class GeneratedVerlauf_Ausgabe_GrundWidget extends StatelessWidget {
         borderRadius: BorderRadius.circular(5.429718971252441),
         child: Container(
           color: Color.fromARGB(255, 251, 251, 251),
+          child: TextField(
+            controller: verlaufgrund,
+            decoration: InputDecoration(
+              filled: true,
+              fillColor: Color.fromARGB(255, 251, 251, 251),
+            ),
+          ),
         ),
       ),
     );
