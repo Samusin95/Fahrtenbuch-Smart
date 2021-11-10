@@ -23,7 +23,7 @@ class GeneratedModelWidget1 extends StatelessWidget {
               bottom: null,
               width: 328.0,
               height: 26.0,
-              child: GeneratedProfil_Text_ModellWidget(),
+              child: GeneratedProfil_Text_ModellWidget(key: key),
             ),
             Positioned(
               left: 0.0,

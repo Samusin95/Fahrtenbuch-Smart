@@ -23,7 +23,7 @@ class GeneratedStadtWidget1 extends StatelessWidget {
               bottom: null,
               width: 233.0,
               height: 26.0,
-              child: GeneratedProfil_Text_StadtWidget(),
+              child: GeneratedProfil_Text_StadtWidget(key: key),
             ),
             Positioned(
               left: 0.0,

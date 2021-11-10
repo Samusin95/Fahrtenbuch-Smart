@@ -23,7 +23,7 @@ class GeneratedVornameWidget1 extends StatelessWidget {
               bottom: null,
               width: 161.0,
               height: 26.0,
-              child: GeneratedProfil_Text_VornameWidget(),
+              child: GeneratedProfil_Text_VornameWidget(key: key),
             ),
             Positioned(
               left: 0.0,

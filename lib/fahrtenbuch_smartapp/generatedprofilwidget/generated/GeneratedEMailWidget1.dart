@@ -32,7 +32,7 @@ class GeneratedEMailWidget1 extends StatelessWidget {
               bottom: null,
               width: 328.0,
               height: 26.0,
-              child: GeneratedProfil_Text_EMailWidget(),
+              child: GeneratedProfil_Text_EMailWidget(key: key),
             )
           ]),
     );

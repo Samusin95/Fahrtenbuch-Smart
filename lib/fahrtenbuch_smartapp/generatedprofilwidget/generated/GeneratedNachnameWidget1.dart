@@ -23,7 +23,7 @@ class GeneratedNachnameWidget1 extends StatelessWidget {
               bottom: null,
               width: 162.0,
               height: 26.0,
-              child: GeneratedProfil_Text_NachnameWidget(),
+              child: GeneratedProfil_Text_NachnameWidget(key: key),
             ),
             Positioned(
               left: 0.0,

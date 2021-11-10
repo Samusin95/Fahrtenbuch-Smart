@@ -3,7 +3,6 @@ import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generat
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFahrt_Button_AnkunftWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFahrt_Button_DatumWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFahrt_Text_StartHausnrWidget.dart';
-
 import 'package:http/http.dart' as http;
 import 'dart:async';
 
@@ -83,7 +82,7 @@ class _GeneratedTitleWidgetState extends State<GeneratedTitleWidget> {
 
 Future<List> senddata() async {
   var zielOrt;
-  final response = await http.post(Uri.parse("http://10.0.231.11/testsmart/insertdataNeueFahrt.php"), body: {
+  final response = await http.post(Uri.parse("http://192.168.1.101/testsmart/insertdataNeueFahrt.php"), body: {
     "startFirmenname": startFirmennamekey.currentState.startFirmenname.text,
     "startStrasse": startStrassekey.currentState.startStrasse.text,
     "startHausnr": startHausnrkey.currentState.startHausnr.text,

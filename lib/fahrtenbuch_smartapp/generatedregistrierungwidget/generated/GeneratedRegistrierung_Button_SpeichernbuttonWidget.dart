@@ -73,7 +73,7 @@ class _GeneratedRegistrierung_Button_SpeichernbuttonWidgetState extends State<Ge
 }
 
 Future<List> senddata() async {
-  final response = await http.post(Uri.parse("http://10.0.63.9/testsmart/insertdata.php"), body: {  //IP Home: 192.168.100.11
+  final response = await http.post(Uri.parse("http://192.168.1.101/testsmart/insertdata.php"), body: {  //IP Home: 192.168.100.11
     "email": mailkey.currentState.email.text,
     "passwort": passwortkey.currentState.passwort.text,
     "passwort2": passwort2key.currentState.passwort2.text,
