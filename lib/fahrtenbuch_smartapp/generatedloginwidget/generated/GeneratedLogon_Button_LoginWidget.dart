@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
+import 'package:flutter_session/flutter_session.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedloginwidget/generated/GeneratedLabel_LoginWidget1.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedloginwidget/generated/GeneratedIconFillcheckmarkWidget2.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedloginwidget/generated/GeneratedIconFillcloseWidget2.dart';
@@ -88,17 +89,24 @@ class GeneratedLogon_Button_LoginWidget extends StatelessWidget {
       ),
     );
   }
+
+  Future<List> checkdata() async {
+    final response = await http.post(Uri.parse("http://192.168.1.101/testsmart/checkdataLogin.php"), body: {
+      "useremail": emailkey.currentState.email.text,
+      "userpasswort": passwortkey.currentState.passwort.text,
+    });
+    if(response.statusCode == 200){
+      debugPrint("Data posted successfully");
+      debugPrint(response.body);
+    }else{
+      debugPrint("Something went wrong! Status Code is: ${response.statusCode}");
+    };
+    saveDatatoken();
+  }
+
+  Future<void> saveDatatoken() async {
+    await FlutterSession().set("token", emailkey.currentState.email.text);
+  }
 }
 
-Future<List> checkdata() async {
-  final response = await http.post(Uri.parse("http://10.0.231.11/testsmart/checkdataLogin.php"), body: {
-    "useremail": emailkey.currentState.email.text,
-    "userpasswort": passwortkey.currentState.passwort.text,
-  });
-  if(response.statusCode == 200){
-    debugPrint("Data posted successfully");
-    debugPrint(response.body);
-  }else{
-    debugPrint("Something went wrong! Status Code is: ${response.statusCode}");
-  };
-}
+
