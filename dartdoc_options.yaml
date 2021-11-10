@@ -1,14 +1,11 @@
 dartdoc:
   categories:
     "FahrtenbuchSMART" :
-      markdown : doc/First.md
       name: Login
 
       "Neue Fahrt":
         name: Fahrt
-        markdown: doc/Third.md
   categoryOrder: ["First Category", "Second Category", "Third Category"]
-  includeExternal: ['bin/unusually_located_library.dart']
   path: "doc\api"
   showUndocumentedCategories: true
   ignore:
