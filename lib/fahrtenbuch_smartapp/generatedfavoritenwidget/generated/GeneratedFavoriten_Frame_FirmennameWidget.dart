@@ -11,7 +11,7 @@ class GeneratedFavoriten_Frame_FirmennameWidget extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.zero,
       child: Container(
-        width: 353.0,
+        width: 363.0,
         height: 39.0,
         child: Stack(
             fit: StackFit.expand,

@@ -18,7 +18,7 @@ class GeneratedFrame20Widget extends StatelessWidget {
             alignment: Alignment.center,
             children: [
               Positioned(
-                left: 14.0,
+                left: 18.0,
                 top: 8.0,
                 right: null,
                 bottom: null,

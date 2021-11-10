@@ -16,7 +16,7 @@ class _GeneratedFavoriten_Text_OrtWidgetState extends State<GeneratedFavoriten_T
   final TextEditingController fort = new TextEditingController();
   Widget build(BuildContext context) {
     return Container(
-      width: 150.0,
+      width: 160.0,
       height: 24.761903762817383,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(5.429718971252441),
