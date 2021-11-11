@@ -43,6 +43,7 @@ class GeneratedStartseiteWidget extends StatelessWidget {
                 width: 231.0,
                 height: 167.0,
                 child: GeneratedLabel_TitelWidget(),
+
               ),
               Positioned(
                 left: 111.0,

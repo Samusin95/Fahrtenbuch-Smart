@@ -14,7 +14,7 @@ class GeneratedLabel_RegistrierungWidget extends StatelessWidget {
         textAlign: TextAlign.center,
         style: TextStyle(
           height: 2.0,
-          fontSize: 14.0,
+          fontSize: 23.0,
           fontFamily: 'Roboto',
           fontWeight: FontWeight.w400,
           color: Color.fromARGB(255, 58, 159, 165),

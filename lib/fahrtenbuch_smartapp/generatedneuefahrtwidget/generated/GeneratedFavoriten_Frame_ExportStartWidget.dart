@@ -34,11 +34,11 @@ class _GeneratedFavoriten_Frame_ExportStartWidgetState extends State<GeneratedFa
               //new ButtonTheme(
 
             //shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6.0)),
-                  child: ElevatedButton(
+                 /* child: ElevatedButton(
                     style: style,
                     onPressed: () {},
                     child: const Text("Import"),
-            ),
+            ),*/
           ),
             Container(
               //new ButtonTheme(
@@ -59,33 +59,4 @@ class _GeneratedFavoriten_Frame_ExportStartWidgetState extends State<GeneratedFa
     ),
     );
   }
-      /*child: Container(
-        width: 25.0,
-        height: 25.0,
-        child: Stack(
-            clipBehavior: Clip.none, fit: StackFit.expand,
-            alignment: Alignment.center,
-            children: [
-              Positioned(
-                left: 0.0,
-                top: 0.0,
-                right: null,
-                bottom: null,
-                width: 25.0,
-                height: 25.0,
-                //child: GeneratedBGprimaryWidget6(),
-              ),
-              Positioned(
-                left: 0.0,
-                top: 0.0,
-                right: null,
-                bottom: null,
-                width: 24.0,
-                height: 24.0,
-                //child: GeneratedFavoriten_Button_ExportStartWidget(),
-              )
-            ]),
-      ),
-    );
-  }*/
 }

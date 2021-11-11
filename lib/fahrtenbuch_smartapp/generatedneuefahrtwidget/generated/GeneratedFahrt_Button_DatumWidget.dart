@@ -14,7 +14,7 @@ class GeneratedFahrt_Button_DatumWidget extends StatefulWidget {
 class _GeneratedFahrt_Button_DatumWidgetState
     extends State<GeneratedFahrt_Button_DatumWidget> {
   @override
-  String buttonText = '''SET''';
+  String buttonText = '''CLICK''';
   DateTime dtDatum;
   Widget build(BuildContext context) {
     return Opacity(
@@ -38,7 +38,7 @@ class _GeneratedFahrt_Button_DatumWidgetState
                 onPressed: () {
                   setState(() {
                     //setButtonState(buttonText);
-                    if (buttonText == '''SET''') {
+                    if (buttonText == '''CLICK''') {
                       DateTime aktuellesDatum = DateTime.now();
                       Locale myLocale = Localizations.localeOf(context);
                       String formatiertesDatum =

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedAbfahrtWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFrame27Widget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFirmennameZielWidget.dart';
-import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedPrivatWidget.dart';
+import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedPWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedStandEndeWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedStartHausnrWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedZielStraeWidget.dart';
@@ -20,7 +20,7 @@ import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generat
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedMobileTopBarDarkWidget5.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFavoriten_Frame_ExportZielWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedIconicRightAccentWidget3.dart';
-import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedGeschftlichWidget.dart';
+import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedPrivatWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFirmennameStartWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedStartOrtWidget.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedDatumWidget.dart';
@@ -208,7 +208,7 @@ class GeneratedNeueFahrtWidget extends StatelessWidget {
                 child: GeneratedFirmennameZielWidget(),
               ),
               Positioned(
-                left: 203.0,
+                left: 230.0,
                 top: 241.0,
                 right: null,
                 bottom: null,
@@ -259,17 +259,8 @@ class GeneratedNeueFahrtWidget extends StatelessWidget {
                 bottom: null,
                 width: 155.0,
                 height: 52.0,
-                child: GeneratedGeschftlichWidget(),
-              ),
-              /*Positioned(
-                left: 203.0,
-                top: 77.0,
-                right: null,
-                bottom: null,
-                width: 52.0,
-                height: 26.0,
                 child: GeneratedPrivatWidget(),
-              ),*/
+              ),
               Positioned(
                 left: 15.0,
                 top: 240.0,
@@ -280,8 +271,8 @@ class GeneratedNeueFahrtWidget extends StatelessWidget {
                 child: GeneratedFrame27Widget(),
               ),
               Positioned(
-                left: 203.0,
-                top: 130.0,
+                left: 230.0,
+                top: 132.0,
                 right: null,
                 bottom: null,
                 width: 160.0,

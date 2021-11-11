@@ -14,7 +14,7 @@ class GeneratedFahrt_Button_AbfahrtWidget extends StatefulWidget {
 class _GeneratedFahrt_Button_AbfahrtWidgetState
     extends State<GeneratedFahrt_Button_AbfahrtWidget> {
   @override
-  String buttonText = '''SET''';
+  String buttonText = '''CLICK''';
   DateTime dtAbfahrt;
 
   Widget build(BuildContext context) {
@@ -38,7 +38,7 @@ class _GeneratedFahrt_Button_AbfahrtWidgetState
                   child: TextButton(
                         onPressed: () {
                         setState(() {
-                        if (buttonText == '''SET''') {
+                        if (buttonText == '''CLICK''') {
                         DateTime uhrzeitAbfahrt = DateTime.now();
                         String formatierteUhrzeit =
                         "${uhrzeitAbfahrt.hour.toString().padLeft(2, '0')}:${uhrzeitAbfahrt.minute.toString().padLeft(2, '0')}";

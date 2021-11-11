@@ -39,9 +39,8 @@ class GeneratedStartseite_Button_RegistrierungWidget extends StatelessWidget {
               borderRadius: BorderRadius.circular(8.0),
             ),
             child: Stack(
-                fit: StackFit.expand,
+                clipBehavior: Clip.none, fit: StackFit.expand,
                 alignment: Alignment.center,
-                overflow: Overflow.visible,
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(8.0),
@@ -50,11 +49,11 @@ class GeneratedStartseite_Button_RegistrierungWidget extends StatelessWidget {
                     ),
                   ),
                   Positioned(
-                    left: 26.5,
-                    top: 3.0,
+                    left: 8,
+                    top: -6.0,
                     right: null,
                     bottom: null,
-                    width: 104.0,
+                    width: 140.0,
                     height: 39.0,
                     child: GeneratedLabel_RegistrierungWidget(),
                   ),

@@ -17,7 +17,7 @@ class _GeneratedFavoriten_Text_FirmennameWidgetState extends State<GeneratedFavo
   final TextEditingController ffirmenname = new TextEditingController();
   Widget build(BuildContext context) {
     return Container(
-      width: 210.0,
+      width: 235.0,
       height: 25.0,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(5.429718971252441),

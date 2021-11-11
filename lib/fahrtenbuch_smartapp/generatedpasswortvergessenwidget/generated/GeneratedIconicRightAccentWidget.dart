@@ -56,7 +56,7 @@ class GeneratedIconicRightAccentWidget extends StatelessWidget {
 
 Future<List> updatedata() async {
   String token = await FlutterSession().get("token");
-  final response = await http.post(Uri.parse("http://192.168.1.101/testsmart/updatedatapasswort.php"), body: {  //IP Home: 192.168.100.11
+  final response = await http.post(Uri.parse("http://10.0.231.10/testsmart/updatedatapasswort.php"), body: {  //IP Home: 192.168.100.11
     "emailtoken": token,
     "passwort": neuespasswortkey.currentState.neuespasswort.text,
     "passwort2": neuespasswort2key.currentState.neuespasswort2.text,

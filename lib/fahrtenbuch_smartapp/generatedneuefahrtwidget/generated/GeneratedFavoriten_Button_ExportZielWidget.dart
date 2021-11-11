@@ -18,7 +18,7 @@ class GeneratedFavoriten_Button_ExportZielWidget extends StatelessWidget {
             clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
             children: [
-              Positioned(
+              /*Positioned(
                 left: 4.0,
                 top: 13.0,
                 right: null,
@@ -26,8 +26,8 @@ class GeneratedFavoriten_Button_ExportZielWidget extends StatelessWidget {
                 width: 12.0,
                 height: 0.0,
                 child: GeneratedVector1118Widget2(),
-              ),
-              Positioned(
+              ),*/
+              /*Positioned(
                 left: 12.0,
                 top: 8.0,
                 right: null,
@@ -35,8 +35,8 @@ class GeneratedFavoriten_Button_ExportZielWidget extends StatelessWidget {
                 width: 4.0,
                 height: 9.0,
                 child: GeneratedVector1119Widget2(),
-              ),
-              Positioned(
+              ),*/
+              /*Positioned(
                 left: 4.0,
                 top: 5.0,
                 right: null,
@@ -44,7 +44,7 @@ class GeneratedFavoriten_Button_ExportZielWidget extends StatelessWidget {
                 width: 16.5,
                 height: 16.0,
                 child: GeneratedRectangle2807Widget2(),
-              )
+              )*/
             ]),
       ),
     );

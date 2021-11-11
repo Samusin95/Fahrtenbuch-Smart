@@ -14,9 +14,8 @@ class GeneratedFavoriten_Frame_FirmennameWidget extends StatelessWidget {
         width: 363.0,
         height: 39.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               Positioned(
                 left: 14.0,
@@ -32,7 +31,7 @@ class GeneratedFavoriten_Frame_FirmennameWidget extends StatelessWidget {
                 top: 8.0,
                 right: null,
                 bottom: null,
-                width: 210.0,
+                width: 245.0,
                 height: 25.0,
                 child: GeneratedFavoriten_Text_FirmennameWidget(key: key),
               )

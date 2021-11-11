@@ -20,7 +20,7 @@ class _GeneratedRegistrierung_Text_PLZWidget1State extends State<GeneratedRegist
 
   Widget build(BuildContext context) {
     return Container(
-      width: 82.2244873046875,
+      width: 84.0,
       height: 26.0,
         decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(5.429718971252441),

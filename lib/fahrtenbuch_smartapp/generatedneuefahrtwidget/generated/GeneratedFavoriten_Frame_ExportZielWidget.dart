@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedBGprimaryWidget5.dart';
 import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generated/GeneratedFavoriten_Button_ExportZielWidget.dart';
@@ -9,42 +7,31 @@ import 'package:flutterapp/fahrtenbuch_smartapp/generatedneuefahrtwidget/generat
   */
 class GeneratedFavoriten_Frame_ExportZielWidget extends StatefulWidget {
   @override
-  State<GeneratedFavoriten_Frame_ExportZielWidget> createState() => _GeneratedFavoriten_Frame_ExportZielWidgetState();
+  State<GeneratedFavoriten_Frame_ExportZielWidget> createState() =>
+      _GeneratedFavoriten_Frame_ExportZielWidgetState();
 }
 
-class _GeneratedFavoriten_Frame_ExportZielWidgetState extends State<GeneratedFavoriten_Frame_ExportZielWidget> {
+class _GeneratedFavoriten_Frame_ExportZielWidgetState
+    extends State<GeneratedFavoriten_Frame_ExportZielWidget> {
   @override
   Widget build(BuildContext context) {
     final ButtonStyle style = ElevatedButton.styleFrom(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6.0)),
         primary: Color.fromARGB(255, 58, 159, 165),
         //padding: EdgeInsets.symmetric(horizontal:  )
-        textStyle: TextStyle(
-            fontSize: 10,
-            fontWeight: FontWeight.bold)
-    );
+        textStyle: TextStyle(fontSize: 10, fontWeight: FontWeight.bold));
     return Container(
-      //borderRadius: BorderRadius.zero,
-      //borderRadius: BorderRadius.circular(6.0),
       child: new Row(
-        //new ButtonTheme.bar(
-        /*child: new ButtonBar(*/
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           Container(
-            //new ButtonTheme(
-
-            //shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6.0)),
-            child: ElevatedButton(
+              /*child: ElevatedButton(
               style: style,
               onPressed: () {},
               child: const Text("Import"),
-            ),
-          ),
+            ),*/
+              ),
           Container(
-            //new ButtonTheme(
-
-            //shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(6.0)),
             child: ElevatedButton(
               style: style,
               onPressed: () {},
@@ -61,7 +48,7 @@ class _GeneratedFavoriten_Frame_ExportZielWidgetState extends State<GeneratedFav
     );
   }
 }
-      /* child: Container(
+/* child: Container(
         width: 25.0,
         height: 25.0,
         child: Stack(
@@ -88,4 +75,3 @@ class _GeneratedFavoriten_Frame_ExportZielWidgetState extends State<GeneratedFav
               )
             ]),
       ),*/
-

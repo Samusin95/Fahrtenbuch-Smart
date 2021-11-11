@@ -126,7 +126,7 @@ class _GeneratedProfilWidgetState extends State<GeneratedProfilWidget> {
   Future getDataProfil() async{
     dynamic token = await FlutterSession().get("token");
     emailprofilkey.currentState.emailprofil.text = token;
-    String url = "http://192.168.1.101/testsmart/getdata.php?emailtoken=" + token;
+    String url = "http://10.0.231.10/testsmart/getdata.php?emailtoken=" + token;
     var response = await http.get(Uri.parse(url));
     if (response.statusCode == 200) {
       List<dynamic> prodList = [];

@@ -11,6 +11,8 @@ dependencies:
   path_drawing: "^0.4.1"
   flutter:
     sdk: "flutter"
+  sqflite:
+  path:
 dev_dependencies: 
   flutter_test: 
     sdk: "flutter"
