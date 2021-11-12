@@ -6,7 +6,7 @@ import 'package:flutterapp/helpers/svg/svg.dart';
   */
 class GeneratedVerlauf_Ausgabe_UhrzeitWidget1 extends StatelessWidget {
   @override
-  final TextEditingController verlaufdatum= new TextEditingController(text: "15.11.");
+  final TextEditingController verlaufdatum= new TextEditingController(text: "12.11.");
   Widget build(BuildContext context) {
     return Container(
       width: 76.0,
