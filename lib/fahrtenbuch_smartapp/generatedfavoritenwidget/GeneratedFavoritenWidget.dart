@@ -219,12 +219,17 @@ class _GeneratedFavoritenWidgetState extends State<GeneratedFavoritenWidget> {
     ));
   }
 
+  @override
+  void initState() {
+    getDataFavoriten();
+  }
+
   /// Holt sich aus der PHP Datei ein Array heraus und fügt sie in eine Liste ein.
   /// Die Inhalte werden über das Schlüsselwort herausgesucht und den Felder zugeordnet.
   /// Es wird der Token dem E-Mail Feld zugeordnet.
   Future getDataFavoriten() async{
     dynamic token = await FlutterSession().get("token");
-    String url = "http://10.0.63.16/testsmart/getdataFavoriten.php?emailtoken=" + token;
+    String url = "http://10.0.63.10/testsmart/getdataFavoriten.php?emailtoken=" + token;
     var response = await http.get(Uri.parse(url));
     if (response.statusCode == 200) {
       List<dynamic> prodList = [];
@@ -282,7 +287,7 @@ class DynamicWidget extends StatelessWidget {
 
 Future<List> senddata() async {
   dynamic token = await FlutterSession().get("token");
-  final response = await http.post(Uri.parse("http://10.0.63.16/testsmart/insertdataFavoriten.php"),
+  final response = await http.post(Uri.parse("http://10.0.63.10/testsmart/insertdataFavoriten.php"),
       body: {
         "emailtoken": token,
         "ffirmenname": ffirmennamekey.currentState.ffirmenname.text,
