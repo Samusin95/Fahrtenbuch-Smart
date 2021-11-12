@@ -44,7 +44,7 @@ class GeneratedFavoriten_Frame_OrtWidget extends StatelessWidget {
                 bottom: null,
                 width: 128.0,
                 height: 25.0,
-                child: GeneratedFavoriten_Text_OrtWidget1(),
+                child: GeneratedFavoriten_Text_OrtWidget1(key: key),
               )
             ]),
       ),
