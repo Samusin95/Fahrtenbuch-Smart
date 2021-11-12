@@ -13,6 +13,7 @@ class GeneratedRegistrierung_Text_Passwort2Widget extends StatefulWidget {
 
 class _GeneratedRegistrierung_Text_Passwort2WidgetState extends State<GeneratedRegistrierung_Text_Passwort2Widget> {
   @override
+  bool _obscureText = true;
   final TextEditingController passwort2 = new TextEditingController();
   Widget build(BuildContext context) {
     return Container(
@@ -27,6 +28,7 @@ class _GeneratedRegistrierung_Text_Passwort2WidgetState extends State<GeneratedR
       ),
       child: TextField(
         controller: passwort2,
+        obscureText: _obscureText,
         decoration: InputDecoration(
           filled: true,
           fillColor: Color.fromARGB(255, 251, 251, 251),
