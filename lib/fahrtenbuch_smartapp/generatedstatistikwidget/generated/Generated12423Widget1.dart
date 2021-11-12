@@ -7,7 +7,7 @@ class Generated12423Widget1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      '''12,423''',
+      '''66%''',
       overflow: TextOverflow.visible,
       textAlign: TextAlign.left,
       style: TextStyle(

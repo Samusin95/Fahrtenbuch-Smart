@@ -14,9 +14,8 @@ class GeneratedStatistik_DoughnutWidget extends StatelessWidget {
       width: 161.0,
       height: 165.61961364746094,
       child: Stack(
-          fit: StackFit.expand,
+          clipBehavior: Clip.none, fit: StackFit.expand,
           alignment: Alignment.center,
-          overflow: Overflow.visible,
           children: [
             Positioned(
               left: 0.0,
@@ -36,7 +35,7 @@ class GeneratedStatistik_DoughnutWidget extends StatelessWidget {
               height: 165.61961364746094,
               child: Generated02Widget(),
             ),
-            Positioned(
+            /*Positioned(
               left: 0.0,
               top: 0.0,
               right: null,
@@ -44,8 +43,8 @@ class GeneratedStatistik_DoughnutWidget extends StatelessWidget {
               width: 161.0,
               height: 165.61961364746094,
               child: GeneratedGeschftsfahrten_TorteWidget(),
-            ),
-            Positioned(
+            ),*/
+            /*Positioned(
               left: 0.0,
               top: 0.0,
               right: null,
@@ -53,7 +52,7 @@ class GeneratedStatistik_DoughnutWidget extends StatelessWidget {
               width: 161.0,
               height: 165.61961364746094,
               child: GeneratedPrivatfahrten_TorteWidget(),
-            )
+            )*/
           ]),
     );
   }

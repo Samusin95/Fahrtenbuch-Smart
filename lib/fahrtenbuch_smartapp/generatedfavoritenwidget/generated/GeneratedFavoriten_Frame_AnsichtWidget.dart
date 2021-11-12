@@ -34,11 +34,6 @@ class _GeneratedFavoriten_Frame_AnsichtWidgetState extends State<GeneratedFavori
   @override
   Widget build(BuildContext context) {
     return ClipRect(
-      /*Scrollbar(
-        controller: _scrollController,
-        isAlwaysShown: true,*/
-          //new ClipRRect(
-          //borderRadius: BorderRadius.zero,
           child: Container(
             width: 355.0,
             height: 123.0,
@@ -108,14 +103,14 @@ class _GeneratedFavoriten_Frame_AnsichtWidgetState extends State<GeneratedFavori
                     bottom: null,
                     width: 215.0,
                     height: 25.0,
-                    child: GeneratedFavoriten_Ausgabe_FirmennameWidget(key: key),
+                    child: GeneratedFavoriten_Ausgabe_Firmenname1Widget(key: key),
                   ),
                   Positioned(
                     left: 97.0,
                     top: 63.0,
                     right: null,
                     bottom: null,
-                    width: 60.0,
+                    width: 65.0,
                     height: 25.0,
                     child: GeneratedFavoriten_Ausgabe_PLZWidget(key: key),
                   ),

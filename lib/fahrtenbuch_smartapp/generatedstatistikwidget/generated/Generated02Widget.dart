@@ -7,7 +7,24 @@ import 'package:flutterapp/helpers/svg/svg.dart';
 class Generated02Widget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Visibility(
+    return Container(
+      width: 33.076927185058594,
+      height: 32.83745574951172,
+      child: ClipRRect(
+        borderRadius: BorderRadius.zero,
+        child: Image.asset(
+          "assets/images/torten_diagramm.png",
+          color: null,
+          fit: BoxFit.cover,
+          width: 200,
+          height: 200,
+          colorBlendMode: BlendMode.dstATop,
+        ),
+      ),
+    );
+
+
+    /*return Visibility(
       visible: false,
       child: Container(
         width: 161.0,
@@ -19,6 +36,6 @@ class Generated02Widget extends StatelessWidget {
             ..color = Color.fromARGB(255, 255, 159, 64),
         ]),
       ),
-    );
+    );*/
   }
 }

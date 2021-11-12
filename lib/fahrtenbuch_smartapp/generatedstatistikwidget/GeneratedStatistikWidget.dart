@@ -18,9 +18,8 @@ class GeneratedStatistikWidget extends StatelessWidget {
         width: 360.0,
         height: 640.0,
         child: Stack(
-            fit: StackFit.expand,
+            clipBehavior: Clip.none, fit: StackFit.expand,
             alignment: Alignment.center,
-            overflow: Overflow.visible,
             children: [
               ClipRRect(
                 borderRadius: BorderRadius.zero,

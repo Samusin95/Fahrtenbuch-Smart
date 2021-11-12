@@ -11,9 +11,8 @@ class GeneratedStatistik_Privatfahrten_DataWidget extends StatelessWidget {
       width: 92.82540130615234,
       height: 23.42948341369629,
       child: Stack(
-          fit: StackFit.expand,
+          clipBehavior: Clip.none, fit: StackFit.expand,
           alignment: Alignment.center,
-          overflow: Overflow.visible,
           children: [
             Positioned(
               left: 0.0,

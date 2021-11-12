@@ -17,7 +17,7 @@ class _GeneratedFavoriten_Ausgabe_PLZWidgetState extends State<GeneratedFavorite
   final TextEditingController favoritenplz = new TextEditingController();
   Widget build(BuildContext context) {
     return Container(
-      width: 60.0,
+      width: 88.0,
       height: 25.0,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(5.429718971252441),

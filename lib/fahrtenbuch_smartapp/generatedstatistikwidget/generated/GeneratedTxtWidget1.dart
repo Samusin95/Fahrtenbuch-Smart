@@ -12,9 +12,8 @@ class GeneratedTxtWidget1 extends StatelessWidget {
       width: 111.7913818359375,
       height: 30.781108856201172,
       child: Stack(
-          fit: StackFit.expand,
+          clipBehavior: Clip.none, fit: StackFit.expand,
           alignment: Alignment.center,
-          overflow: Overflow.visible,
           children: [
             Positioned(
               left: 0.0,

@@ -196,16 +196,6 @@ class _GeneratedFavoritenWidgetState extends State<GeneratedFavoritenWidget> {
                 height: 123.0,
                 child: GeneratedFavoriten_Frame_AnsichtWidget() ,
               ),
-
-              /* Positioned(
-                left: 319.0,
-                top: 85.0,
-                right: null,
-                bottom: null,
-                width: 25.0,
-                height: 25.0,
-                child: GeneratedFavoriten_Frame_SpeichernWidget(),
-              ),*/
               Positioned(
                 left: 300.0,
                 top: 530.0,

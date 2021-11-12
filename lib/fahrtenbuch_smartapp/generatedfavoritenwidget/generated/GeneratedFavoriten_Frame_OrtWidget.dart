@@ -29,7 +29,7 @@ class GeneratedFavoriten_Frame_OrtWidget extends StatelessWidget {
                 child: GeneratedFavoriten_Button_LoeschenWidget(),
               ),
               Positioned(
-                left: 1.0,
+                left: 2.0,
                 top: 9.0,
                 right: null,
                 bottom: null,
